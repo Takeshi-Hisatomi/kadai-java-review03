@@ -18,7 +18,7 @@ public class BaseBallTeam {
     }
 
     public double getRate() {
-        double winingRate = ((double)this.win /(this.win + this.lose)); // int型からdouble型にキャストで型変換
+        double winingRate = ((double)this.win /(this.win + this.lose));
         return winingRate;
     }
 
