@@ -11,12 +11,12 @@ public class Review03 {
        BaseBallTeam Carp = new BaseBallTeam("広島東洋カープ", 66, 74, 3);
        BaseBallTeam Dragons = new BaseBallTeam("中日ドラゴンズ", 66, 75, 2);
 
-       Yakuruto.report(); // ヤクルトのreportメソッドを呼び出し
-       Baystars.report(); // ベイスターズのreportメソッドを呼び出し
-       Tigers.report(); // タイガースのreportメソッドを呼び出し
-       Giants.report(); // ジャイアンツのreportメソッドを呼び出し
-       Carp.report(); // カープのreportメソッドを呼び出し
-       Dragons.report(); // ドラゴンズのreportメソッドを呼び出し
-    }
+       Yakuruto.report();
+       Baystars.report();
+       Tigers.report();
+       Giants.report();
+       Carp.report();
+       Dragons.report();
+       }
 
 }

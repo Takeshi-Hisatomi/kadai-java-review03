@@ -1,16 +1,16 @@
 package baseball;
 
-public class BaseballTeam {
+public class BaseBallTeam {
 
     private String name; // チーム名
     private int win; // 勝ち
     private int lose; // 負け
     private int draw; // 引き分け
 
-    public BaseballTeam() {
+    public BaseBallTeam() {
     }
 
-    public BaseballTeam(String name, int win, int lose, int draw) {
+    public BaseBallTeam(String name, int win, int lose, int draw) {
         this.name = name;
         this.win = win;
         this.lose = lose;
@@ -18,7 +18,7 @@ public class BaseballTeam {
     }
 
     public double getRate() {
-        double winingRate = ((double)this.win /(this.win + this.lose));
+        double winingRate = ((double)this.win /(this.win + this.lose)); // int型からdouble型にキャストで型変換
         return winingRate;
     }
 
@@ -54,7 +54,7 @@ public class BaseballTeam {
         return draw;
     }
 
-    public void setDefense(int draw) {
+    public void setDraw(int draw) {
         this.draw = draw;
     }
 }
